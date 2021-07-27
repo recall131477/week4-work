@@ -1,0 +1,9 @@
+.faq__main {
+  padding: 1.75rem 0 3.5rem;
+  @include mq(md) {
+    padding: 3.75rem 1.5625rem 6rem;
+  }
+  @include mq(lg) {
+    padding: 6rem 0 10rem;
+  }
+}

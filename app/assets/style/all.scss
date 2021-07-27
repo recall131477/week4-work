@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+// config
+@import 'config/reboot';
+@import 'config/variables';
+@import 'config/mixins';
+@import 'config/sass-mq';
+
+// component
+@import 'component/bookmark';
+@import 'component/btn';
+@import 'component/form';
+
+// layout
+@import 'layout/wrapper';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/banner';
+@import 'layout/footer';
+
+// pages
+@import 'page/home';
+@import 'page/product';
+@import 'page/location';
+@import 'page/faq';
+@import 'page/blog';

@@ -1,0 +1,41 @@
+.nav {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    @include mq($until:md) {
+      width: 50%;
+      border-top: 1px solid $white;
+      border-bottom: 1px solid $white;
+      &:nth-child(odd) {
+        border-right: 1px solid $white;
+      }
+    }
+    &:not(:first-child) {
+      @include mq(md) {
+        margin-left: 2.5rem;
+      }
+      @include mq(lg) {
+        margin-left: 4rem;
+      }
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    color: $white;
+    transition: color .3s;
+    &:hover {
+      color: rgba($white,0.85);
+    }
+    @include mq($until:md) {
+      justify-content: center;
+      padding: .5rem 0;
+    }
+    @include mq(md) {
+      height: 108px;
+    }
+  }
+}

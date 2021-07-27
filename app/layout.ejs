@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__main">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="assets/images/logo/logo.png" alt="logo">
+        </a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="product.html">系列鏡框</a></li>
+          <li><a href="location1.html">門市據點</a></li>
+          <li><a href="blog.html">部落格</a></li>
+          <li><a href="faq.html">常見問題</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <%- contents %>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__main">
+        <div class="footer__content">
+          <div class="footer__nav">
+            <div class="footer__menu">
+              <ul class="flex">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="product.html">系列鏡框</a></li>
+                <li><a href="location1.html">門市據點</a></li>
+                <li><a href="blog.html">部落格</a></li>
+                <li><a href="faq.html">常見問題</a></li>
+              </ul>
+            </div>
+            <div class="footer__icon">
+              <ul class="flex">
+                <li>
+                  <a href="javascript:;">
+                    <img src="assets/images/icon/icon-fb.svg" alt="icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;">
+                    <img src="assets/images/icon/icon-ig.svg" alt="icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;">
+                    <img src="assets/images/icon/icon-line.svg" alt="icon">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="footer__list">
+            <li>
+              <div class="flex items-center mb-2 | md:mb-4 | lg:mb-6">
+                <img src="assets/images/icon/icon-phone.svg" alt="">
+                <a href="javascript:;">0800-000-000</a>
+              </div>
+            </li>
+            <li>
+              <div class="flex items-center">
+                <img src="assets/images/icon/icon-mail.svg" alt="">
+                <a href="javascript:;">glasses@business.com</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-4 | md:flex md:justify-between md:mt-6 | lg:mt-8">
+          <p class="text-sm text-white mb-2 | md:text-base md:mb-0">Copyright © 2020 Glasses.All rights reserved.</p>
+          <div class="md:flex">
+            <p class="text-sm text-white mb-2 | md:mb-0">隱私權政策</p>
+            <p class="text-sm text-white md:ml-12">服務條款</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
