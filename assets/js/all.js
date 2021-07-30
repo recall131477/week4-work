@@ -8,6 +8,7 @@
     $('.product__content').eq(index).show();
     $('.product-tab__item').on('click', function () {
       index = $(this).index();
+      console.log(index);
       $('.product__content').hide();
       $('.product__content').eq(index).fadeIn();
       $('.product-tab__item').removeClass('is-active');
